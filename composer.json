@@ -1,5 +1,5 @@
 {
-    "name": "noiselabs/smarty-bundle",
+    "name": "biberltd/smarty-bundle",
     "type": "symfony-bundle",
     "description": "This Symfony2 bundle provides integration for the Smarty3 template engine.",
     "keywords": ["templating", "smarty", "symfony", "noiselabs"],
@@ -22,13 +22,13 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "symfony/framework-bundle": "~2.1",
+        "symfony/framework-bundle": "~2.7",
         "smarty/smarty": "3.1.*@stable"
     },
     "require-dev": {
-        "symfony/security": "~2.1",
-        "symfony/yaml": "~2.1",
-        "symfony/assetic-bundle": "~2.0"
+        "symfony/security": "~2.7",
+        "symfony/yaml": "~2.7",
+        "symfony/assetic-bundle": "~2.6"
     },
     "suggest": {
         "symfony/assetic-bundle": "Assetic support in Smarty templates",
